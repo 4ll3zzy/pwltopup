@@ -52,3 +52,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['admin/mobile_legends'] = 'mobile_legends';
+$route['admin/mobile_legends/create'] = 'mobile_legends/create';
+$route['admin/mobile_legends/store'] = 'mobile_legends/store';
+$route['admin/mobile_legends/edit/(:num)'] = 'mobile_legends/edit/$1';
+$route['admin/mobile_legends/update'] = 'mobile_legends/update';
+$route['admin/mobile_legends/destroy/(:num)'] = 'mobile_legends/destroy/$1';
+
+$route['order'] = 'order';
